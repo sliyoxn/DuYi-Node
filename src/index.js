@@ -1,5 +1,5 @@
-// console.log("src index module");
+// let util = require("./util")
+// console.log(util.add(1,2));
 
-// console.log(module);
-
-console.log(require)
+let A = require("./util/moduleA");
+console.log("A模块的导出是", A);

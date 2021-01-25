@@ -4,7 +4,7 @@
 //   // if(require.cache["D:\\repository\\NodeJS\\源码\\myModule.js"]){
 //   //   return require.cache["D:\\repository\\NodeJS\\源码\\myModule.js"].result;
 //   // }
-
+// 规格化
 //   //3. 读取文件内容
 //   //4. 包裹到一个函数中
 
