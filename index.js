@@ -48,16 +48,19 @@ class File {
   }
 }
 
-async function readDir(dirname) {
-  const file = await File.getFile(dirname);
-  return await file.getChildren();
-}
+// async function readDir(dirname) {
+//   const file = await File.getFile(dirname);
+//   return await file.getChildren();
+// }
+//
+// async function test() {
+//   const dirname = path.resolve(__dirname, "./myfiles");
+//   const result = await readDir(dirname);
+//   const datas = await result[0].getChildren();
+//   console.log(datas);
+// }
+//
+// test();
 
-async function test() {
-  const dirname = path.resolve(__dirname, "./myfiles");
-  const result = await readDir(dirname);
-  const datas = await result[0].getChildren();
-  console.log(datas);
-}
 
-test();
+fs.exists()
