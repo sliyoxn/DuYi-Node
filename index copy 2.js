@@ -3,7 +3,7 @@ console.time();
 function test() {
   i++;
   if (i < 1000) {
-    setImmediate(test);
+    setTimeout(test);
   } else {
     console.timeEnd();
   }
