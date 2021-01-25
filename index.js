@@ -14,4 +14,6 @@
 
 // process.kill(10428);
 
-console.log(process.env.ANDROID_HOME);
+// console.log(process.env.ANDROID_HOME);
+
+console.log(process.env)
