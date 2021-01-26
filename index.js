@@ -25,38 +25,45 @@ app.get("/data/:id", (req, res, next) => {
     next(new Error("rua"));
 });
 
-app.get("/data/:id", (req, res, next) => {
-    console.log("handler1")
-    res.setHeader("a", "123");
-    next()
-})
-app.get("/data/:id", (req, res, next) => {
-    console.log("handler2")
-    res.setHeader("b", "456");
-    next()
-});
+// app.get("/data/:id", (req, res, next) => {
+//     console.log("handler1")
+//     res.setHeader("a", "123");
+//     next()
+// })
+// app.get("/data/:id", (req, res, next) => {
+//     console.log("handler2")
+//     res.setHeader("b", "456");
+//     next()
+// });
 app.get("*", (err, req, res, next) => {
-    console.log("接收到错误", err);
-    res.status(500);
-    res.send("服务器错误");
-    // next();
+    console.log(err);
+    if (err) {
+        const errObj = {
+            code: 500,
+            msg: err instanceof Error ? err.message : err,
+        };
+        //发生了错误
+        res.status(500).send(errObj);
+    } else {
+        next();
+    }
 })
-app.get("/data/:id", (req, res, next) => {
-    console.log("handler3")
-    res.send({
-        name : "SakuraSnow"
-    });
-    // 如果在最后一个中间件中都没有处理res，express会响应404并结束请求
-    // 如果已经处理（调用了res.end）, 后续中间件依旧会执行，但是后续不能再处理，否则会报错
-})
-
-// 匹配任何get请求
-app.get("*", (req, res) => {
-    console.log("abc");
-    res.send({
-        name : "Snow"
-    })
-});
+// app.get("/data/:id", (req, res, next) => {
+//     console.log("handler3")
+//     res.send({
+//         name : "SakuraSnow"
+//     });
+//     // 如果在最后一个中间件中都没有处理res，express会响应404并结束请求
+//     // 如果已经处理（调用了res.end）, 后续中间件依旧会执行，但是后续不能再处理，否则会报错
+// })
+//
+// // 匹配任何get请求
+// app.get("*", (req, res) => {
+//     console.log("abc");
+//     res.send({
+//         name : "Snow"
+//     })
+// });
 
 
 app.listen(port, () => {
