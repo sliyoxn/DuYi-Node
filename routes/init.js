@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express(); //创建一个express应用
 
-app.use(require("./staticMiddleware"));
+// app.use(require("./staticMiddleware"));
 
 app.get("/news/abc", (req, res, next) => {
   console.log("handler1");
