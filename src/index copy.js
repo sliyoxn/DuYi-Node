@@ -2,10 +2,10 @@ const mysql = require("mysql2");
 
 // 创建一个数据库连接
 const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "ybybdwyJ42.",
-  database: "companydb",
+    host: "localhost",
+    user: "root",
+    password: "ybybdwyJ42.",
+    database: "companydb",
 });
 
 // simple query
@@ -32,6 +32,6 @@ const connection = mysql.createConnection({
 connection.query(
     "delete from company where id=4",
     (err, result) => {
-      console.log(result);
+        console.log(result);
     }
-  );
+);
