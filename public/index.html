@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Document</title>
-    <link rel="stylesheet" href="./css/index.css" />
-  </head>
-  <body>
-    <h1>静态页面</h1>
-    <script src="./js/index.js"></script>
-  </body>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.21.1/axios.js" defer></script>
+</head>
+<body>
+    <input type="file" id="fileInput"/>
+    <button class="button">上传</button>
+    <img src=""/>
+    <script>
+        let fileInput = document.querySelector("#fileInput");
+        let button = document.querySelector(".button");
+        let img = document.querySelector("img");
+        button.addEventListener("click", async () => {
+            let formData = new FormData();
+            formData.append("img", fileInput.files[0]);
+            let data = await axios.post("http://localhost:5555/uploadFile", formData);
+            img.src = data.data.src;
+        })
+
+    </script>
+
+
+</body>
 </html>

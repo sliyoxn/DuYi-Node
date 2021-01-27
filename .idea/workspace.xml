@@ -67,7 +67,7 @@
       <recent name="E:\Workspaces\Project\WebPro\Node\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.index.js (1)">
+  <component name="RunManager" selected="Node.js.index.js">
     <configuration name="面试题1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/面试题1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -85,8 +85,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.index.js (1)" />
         <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.index.js (1)" />
         <item itemvalue="Node.js.index copy 3.js" />
         <item itemvalue="Node.js.index copy 2.js" />
         <item itemvalue="Node.js.面试题1.js" />
@@ -130,30 +130,34 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="748" y="366" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1611646663473" />
+    <state x="755" y="323" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611667102870">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="755" y="323" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1611667102870" />
     <state x="805" y="331" key="FileChooserDialogImpl" timestamp="1611666281381">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="805" y="331" key="FileChooserDialogImpl/-1920.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1611666281381" />
-    <state width="2005" height="405" key="GridCell.Tab.0.bottom" timestamp="1611666943882">
+    <state width="2005" height="314" key="GridCell.Tab.0.bottom" timestamp="1611669881765">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="1493" height="77" key="GridCell.Tab.0.bottom/-1920.0.1536.864/0.0.2048.1152@-1920.0.1536.864" timestamp="1611561266167" />
-    <state width="2005" height="405" key="GridCell.Tab.0.bottom/-1920.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1611666943882" />
-    <state width="2005" height="405" key="GridCell.Tab.0.center" timestamp="1611666943882">
+    <state width="2005" height="314" key="GridCell.Tab.0.bottom/-1920.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1611669881765" />
+    <state width="2005" height="314" key="GridCell.Tab.0.center" timestamp="1611669881764">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="1493" height="77" key="GridCell.Tab.0.center/-1920.0.1536.864/0.0.2048.1152@-1920.0.1536.864" timestamp="1611561266167" />
-    <state width="2005" height="405" key="GridCell.Tab.0.center/-1920.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1611666943882" />
-    <state width="2005" height="405" key="GridCell.Tab.0.left" timestamp="1611666943882">
+    <state width="2005" height="314" key="GridCell.Tab.0.center/-1920.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1611669881764" />
+    <state width="2005" height="314" key="GridCell.Tab.0.left" timestamp="1611669881764">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="1493" height="77" key="GridCell.Tab.0.left/-1920.0.1536.864/0.0.2048.1152@-1920.0.1536.864" timestamp="1611561266166" />
-    <state width="2005" height="405" key="GridCell.Tab.0.left/-1920.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1611666943882" />
-    <state width="2005" height="405" key="GridCell.Tab.0.right" timestamp="1611666943882">
+    <state width="2005" height="314" key="GridCell.Tab.0.left/-1920.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1611669881764" />
+    <state width="2005" height="314" key="GridCell.Tab.0.right" timestamp="1611669881765">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="1493" height="77" key="GridCell.Tab.0.right/-1920.0.1536.864/0.0.2048.1152@-1920.0.1536.864" timestamp="1611561266167" />
-    <state width="2005" height="405" key="GridCell.Tab.0.right/-1920.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1611666943882" />
+    <state width="2005" height="314" key="GridCell.Tab.0.right/-1920.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1611669881765" />
     <state x="526" y="221" key="SettingsEditor" timestamp="1611555445315">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -166,9 +170,9 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="867" y="343" width="598" height="568" key="find.popup/-1920.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1611561473559" />
-    <state x="687" y="253" width="672" height="678" key="search.everywhere.popup" timestamp="1611649218231">
+    <state x="687" y="253" width="672" height="678" key="search.everywhere.popup" timestamp="1611667105247">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="687" y="253" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1611649218231" />
+    <state x="687" y="253" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1611667105247" />
   </component>
 </project>
